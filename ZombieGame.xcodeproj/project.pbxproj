@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D512FC3D1D2DF79200A6D824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512FC3C1D2DF79200A6D824 /* AppDelegate.swift */; };
+		D512FC411D2DF79200A6D824 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512FC401D2DF79200A6D824 /* GameScene.swift */; };
+		D512FC431D2DF79300A6D824 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512FC421D2DF79300A6D824 /* GameViewController.swift */; };
+		D512FC461D2DF79300A6D824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D512FC441D2DF79300A6D824 /* Main.storyboard */; };
+		D512FC481D2DF79300A6D824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D512FC471D2DF79300A6D824 /* Assets.xcassets */; };
+		D512FC4B1D2DF79300A6D824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D512FC491D2DF79300A6D824 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D512FC391D2DF79200A6D824 /* ZombieGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D512FC3C1D2DF79200A6D824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D512FC401D2DF79200A6D824 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D512FC421D2DF79300A6D824 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D512FC451D2DF79300A6D824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D512FC471D2DF79300A6D824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D512FC4A1D2DF79300A6D824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D512FC4C1D2DF79400A6D824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D512FC361D2DF79200A6D824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D512FC301D2DF79200A6D824 = {
+			isa = PBXGroup;
+			children = (
+				D512FC3B1D2DF79200A6D824 /* ZombieGame */,
+				D512FC3A1D2DF79200A6D824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D512FC3A1D2DF79200A6D824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D512FC391D2DF79200A6D824 /* ZombieGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D512FC3B1D2DF79200A6D824 /* ZombieGame */ = {
+			isa = PBXGroup;
+			children = (
+				D512FC3C1D2DF79200A6D824 /* AppDelegate.swift */,
+				D512FC401D2DF79200A6D824 /* GameScene.swift */,
+				D512FC421D2DF79300A6D824 /* GameViewController.swift */,
+				D512FC441D2DF79300A6D824 /* Main.storyboard */,
+				D512FC471D2DF79300A6D824 /* Assets.xcassets */,
+				D512FC491D2DF79300A6D824 /* LaunchScreen.storyboard */,
+				D512FC4C1D2DF79400A6D824 /* Info.plist */,
+			);
+			path = ZombieGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D512FC381D2DF79200A6D824 /* ZombieGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D512FC4F1D2DF79400A6D824 /* Build configuration list for PBXNativeTarget "ZombieGame" */;
+			buildPhases = (
+				D512FC351D2DF79200A6D824 /* Sources */,
+				D512FC361D2DF79200A6D824 /* Frameworks */,
+				D512FC371D2DF79200A6D824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZombieGame;
+			productName = ZombieGame;
+			productReference = D512FC391D2DF79200A6D824 /* ZombieGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D512FC311D2DF79200A6D824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = New;
+				TargetAttributes = {
+					D512FC381D2DF79200A6D824 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D512FC341D2DF79200A6D824 /* Build configuration list for PBXProject "ZombieGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D512FC301D2DF79200A6D824;
+			productRefGroup = D512FC3A1D2DF79200A6D824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D512FC381D2DF79200A6D824 /* ZombieGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D512FC371D2DF79200A6D824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D512FC4B1D2DF79300A6D824 /* LaunchScreen.storyboard in Resources */,
+				D512FC481D2DF79300A6D824 /* Assets.xcassets in Resources */,
+				D512FC461D2DF79300A6D824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D512FC351D2DF79200A6D824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D512FC411D2DF79200A6D824 /* GameScene.swift in Sources */,
+				D512FC431D2DF79300A6D824 /* GameViewController.swift in Sources */,
+				D512FC3D1D2DF79200A6D824 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D512FC441D2DF79300A6D824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D512FC451D2DF79300A6D824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D512FC491D2DF79300A6D824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D512FC4A1D2DF79300A6D824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D512FC4D1D2DF79400A6D824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D512FC4E1D2DF79400A6D824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D512FC501D2DF79400A6D824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZombieGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rain.ZombieGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D512FC511D2DF79400A6D824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZombieGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rain.ZombieGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D512FC341D2DF79200A6D824 /* Build configuration list for PBXProject "ZombieGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D512FC4D1D2DF79400A6D824 /* Debug */,
+				D512FC4E1D2DF79400A6D824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D512FC4F1D2DF79400A6D824 /* Build configuration list for PBXNativeTarget "ZombieGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D512FC501D2DF79400A6D824 /* Debug */,
+				D512FC511D2DF79400A6D824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D512FC311D2DF79200A6D824 /* Project object */;
+}
